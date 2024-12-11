@@ -11,3 +11,25 @@
   content: "";
   clear: both;
 }
+.flex {
+  display: flex;
+}
+.container {
+  background-color: darkgray;
+  flex-wrap: wrap;
+}
+
+.menu {
+  background-color: bisque;
+  width: 10vw;
+  height: 90vh;
+}
+
+.container-main {
+  background-color: aqua;
+  width: 100vw;
+}
+
+.playbar {
+  height: 100vh;
+}
