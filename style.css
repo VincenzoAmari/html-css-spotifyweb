@@ -34,16 +34,33 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-block: 5px;
 }
 
 .home-section {
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
   height: auto;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
 
 .account {
-  background-color: blue;
+  /* background-color: blue; */
   height: auto;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.small-logo {
+  width: 50%;
+  fill: black;
+}
+
+.micro-logo {
+  width: 25%;
+  fill: black;
 }
 
 /* sezione scroll page */
