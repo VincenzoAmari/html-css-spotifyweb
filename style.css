@@ -39,9 +39,6 @@
 .home-section {
   background-color: chartreuse;
   height: auto;
-  .logo-small {
-    width: 20px;
-  }
 }
 
 .account {
