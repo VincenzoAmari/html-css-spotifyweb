@@ -14,22 +14,61 @@
 .flex {
   display: flex;
 }
+
+/* container di tutta la pagina */
 .container {
   background-color: darkgray;
   flex-wrap: wrap;
 }
-
-.menu {
-  background-color: bisque;
-  width: 10vw;
-  height: 90vh;
-}
-
+/* container parte superiore */
 .container-main {
   background-color: aqua;
   width: 100vw;
+  height: 90vh;
+}
+/* sezione nav bar */
+.menu {
+  background-color: rgb(0, 0, 0);
+  width: 10vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
+.home-section {
+  background-color: chartreuse;
+  height: auto;
+  .logo-small {
+    width: 20px;
+  }
+}
+
+.account {
+  background-color: blue;
+  height: auto;
+}
+
+/* sezione scroll page */
+
+.container-scrollpage {
+  background-color: blueviolet;
+  width: 90vw;
+  height: 90vh;
+}
+
+.upgrade-bar {
+  background-color: chocolate;
+  height: 10vh;
+  align-items: center;
+  justify-content: end;
+}
+
+/* sezione play*/
 .playbar {
-  height: 100vh;
+  background-color: brown;
+  height: 10vh;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
 }
