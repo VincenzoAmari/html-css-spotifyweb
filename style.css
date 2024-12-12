@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .clearfix::after {
@@ -52,7 +53,7 @@
   align-items: center;
   gap: 10px;
   span {
-    color: white;
+    color: rgb(184, 184, 184);
     font-size: 0.5rem;
   }
 }
@@ -66,7 +67,26 @@
 .playlist {
   flex-direction: column;
   justify-content: center;
-  color: white;
+  color: rgb(184, 184, 184);
+
+  h5 {
+    font-size: 0.5rem;
+    color: rgb(238, 238, 238);
+  }
+  li {
+    font-size: 0.5rem;
+  }
+}
+
+.crea-playlist {
+  gap: 5px;
+  align-items: center;
+  padding-block: 5px;
+}
+
+.lista {
+  flex-direction: column;
+  gap: 10px;
 }
 
 .account {
@@ -77,6 +97,26 @@
   gap: 10px;
   span {
     color: white;
+  }
+  hr {
+    width: 90%;
+  }
+}
+.install-section {
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  span {
+    font-size: 0.6rem;
+  }
+}
+
+.account-section {
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  span {
+    font-size: 0.6rem;
   }
 }
 
