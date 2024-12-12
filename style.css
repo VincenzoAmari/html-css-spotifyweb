@@ -138,6 +138,9 @@
   height: 10vh;
   align-items: center;
   justify-content: end;
+  position: sticky;
+  top: 0;
+
   a {
     border: white solid 1px;
     padding: 10px 20px;
@@ -153,6 +156,10 @@
   width: 90vw;
   height: 90vh;
   overflow: scroll;
+  h4 {
+    color: aliceblue;
+    padding: 5% 8%;
+  }
 }
 
 .scrollpage-nav {
@@ -178,6 +185,11 @@
   flex-wrap: wrap;
 }
 
+.most-popular {
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
 .card {
   width: 40%;
   img {
