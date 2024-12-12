@@ -101,7 +101,8 @@
   span {
     color: white;
   }
-  .hr {
+  hr {
+    width: 90%;
   }
 }
 .install-section {
