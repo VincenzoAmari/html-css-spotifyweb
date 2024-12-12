@@ -149,9 +149,40 @@
 }
 
 .container-scrollpage {
-  background-color: blueviolet;
+  background-color: #141922;
   width: 90vw;
   height: 90vh;
+  overflow: scroll;
+}
+
+.scrollpage-nav {
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 30px 10px;
+  a {
+    font-size: 0.5rem;
+    text-decoration: none;
+    color: aliceblue;
+  }
+}
+.recently-played {
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.creata-per-me {
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 40%;
+  img {
+    width: 100%;
+  }
 }
 
 /* sezione play*/
