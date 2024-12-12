@@ -84,7 +84,6 @@
   .scrollpage-nav {
     justify-content: center;
     padding: 20px;
-
     flex-wrap: wrap;
     gap: 20px 10px;
     a {
@@ -117,6 +116,18 @@
     h4 {
       color: aliceblue;
       padding: 5% 2%;
+    }
+  }
+  .scrollpage-nav {
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px 15px;
+    a {
+      font-size: 0.6rem;
+      text-decoration: none;
+      color: aliceblue;
+      flex-basis: 15%;
     }
   }
 
@@ -157,5 +168,21 @@
     flex-direction: column;
     justify-content: space-between;
     padding-block: 5px;
+  }
+  .scrollpage-nav {
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px 0px;
+    a {
+      font-size: 0.7rem;
+      text-decoration: none;
+      color: aliceblue;
+      flex-basis: 12%;
+    }
+  }
+
+  .card {
+    width: 14%;
   }
 }
