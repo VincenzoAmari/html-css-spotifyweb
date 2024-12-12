@@ -85,15 +85,15 @@
 /* Tablet */
 
 @media screen and (min-width: 768px) {
-}
-.menu {
-  background-color: rgb(0, 0, 0);
-  width: 30vw;
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-block: 5px;
+  .menu {
+    background-color: rgb(0, 0, 0);
+    width: 30vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-block: 5px;
+  }
 }
 
 /* Desktop */
