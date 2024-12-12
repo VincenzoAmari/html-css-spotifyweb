@@ -140,6 +140,7 @@
   justify-content: end;
   position: sticky;
   top: 0;
+  padding-right: 15px;
 
   a {
     border: white solid 1px;
@@ -189,6 +190,7 @@
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+  padding-bottom: 10%;
 }
 .card {
   width: 40%;
