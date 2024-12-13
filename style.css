@@ -209,7 +209,7 @@
   width: 100vw;
   align-items: center;
 }
-
+/* sezione left*/
 .song-section {
   flex-basis: 30%;
   padding-left: 5px;
@@ -230,6 +230,7 @@
   }
 }
 
+/* sezione center*/
 .reproducuion-section {
   flex-basis: 40%;
 }
@@ -238,7 +239,8 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  gap: 12%;
+  gap: 20px;
+  padding-bottom: 5px;
 
   .svg-small {
     width: 10px;
@@ -273,6 +275,34 @@
 
 .current-time {
   width: 20%;
+  height: 3px;
+  background-color: aliceblue;
+}
+
+/* sezione right*/
+
+.settings-section {
+  display: flex;
+  flex-basis: 30%;
+  width: 100%;
+  align-items: center;
+  justify-content: end;
+  gap: 5px;
+  padding-right: 5px;
+  svg {
+    width: 10px;
+    fill: gainsboro;
+  }
+}
+
+.total-volume {
+  width: 80%;
+  height: 3px;
+  background-color: rgb(170, 170, 170);
+}
+
+.current-volume {
+  width: 90%;
   height: 3px;
   background-color: aliceblue;
 }
