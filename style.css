@@ -134,7 +134,7 @@
 /* sezione scroll page */
 
 .upgrade-bar {
-  background-color: #080b12;
+  background-color: rgba(8, 11, 18, 0.7);
   height: 10vh;
   align-items: center;
   justify-content: end;
@@ -191,6 +191,9 @@
   gap: 20px;
   flex-wrap: wrap;
   padding-bottom: 10%;
+  img {
+    border-radius: 50%;
+  }
 }
 .card {
   width: 40%;
@@ -216,12 +219,60 @@
 
   .song-text {
     flex-direction: column;
-    font-size: 0.4rem;
+    font-size: 0.3rem;
     color: gainsboro;
     padding-left: 5px;
-    gap: 3px;
+    gap: 5px;
   }
-  img {
+  svg {
     width: 10px;
+    fill: gainsboro;
   }
+}
+
+.reproducuion-section {
+  flex-basis: 40%;
+}
+
+.reproducuion-icon {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 12%;
+
+  .svg-small {
+    width: 10px;
+    fill: gainsboro;
+  }
+  .svg-mid {
+    width: 9px;
+    fill: gainsboro;
+  }
+  .svg-big {
+    width: 25px;
+    fill: gainsboro;
+  }
+}
+
+.reproduction-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  span {
+    font-size: 0.6rem;
+    color: aliceblue;
+    padding-inline: 5px;
+  }
+}
+
+.total-time {
+  width: 80%;
+  height: 3px;
+  background-color: rgb(170, 170, 170);
+}
+
+.current-time {
+  width: 20%;
+  height: 3px;
+  background-color: aliceblue;
 }
