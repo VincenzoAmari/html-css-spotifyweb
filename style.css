@@ -201,9 +201,27 @@
 
 /* sezione play*/
 .playbar {
-  background-color: brown;
+  background-color: #282828;
   height: 10vh;
   width: 100vw;
-  justify-content: space-between;
   align-items: center;
+}
+
+.song-section {
+  flex-basis: 30%;
+  padding-left: 5px;
+  img {
+    width: 25px;
+  }
+
+  .song-text {
+    flex-direction: column;
+    font-size: 0.4rem;
+    color: gainsboro;
+    padding-left: 5px;
+    gap: 3px;
+  }
+  img {
+    width: 10px;
+  }
 }
